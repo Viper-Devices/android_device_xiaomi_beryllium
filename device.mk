@@ -55,7 +55,7 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # GoogleCamera
-$(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)
+#$(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)
 
 # Input
 PRODUCT_COPY_FILES += \
